@@ -7,7 +7,7 @@ import re
 # 1. AI ЖҮЙЕСІН БАПТАУ
 # ==========================================
 # ОСЫ ЖЕРГЕ ӨЗ API КІЛТІҢІЗДІ ҚОЙЫҢЫЗ:
-API_KEY = "AIzaSyCu_AaESh0uyNmQE9Nqblk4oyyFFBbaYV4" 
+API_KEY = " " 
 
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel('gemini-3-flash-preview')
@@ -146,5 +146,6 @@ with tab3:
     with col_p2:
         # Сурет сілтемесі дұрысталды (raw URL)
         st.image("https://images.unsplash.com/photo-1509228468518-180dd48a5d5f?auto=format&fit=crop&q=80&w=1000", caption="Al-Khwarizmi AI Vision")
+
 
     st.success("🎯 **Мақсат:** Білім беруді статикалық бейнелерден интерактивті AI-ассистентке көшіру.")
